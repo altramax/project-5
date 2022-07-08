@@ -86,7 +86,9 @@ button:hover{
 
 @media screen and (min-width:720px) 
 {
-    .container{
+   .container{
+        background-image: url(./images/bg-desktop.svg);
+        background-repeat: repeat;
     }
 
   .build{
