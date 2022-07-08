@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 100%;
+    padding: 2rem 2rem;
+    background-image: url(./images/bg-mobile.svg);
+    background-color: #674bb1;
+}
+
+.logo{
+    width: 8rem;
+    padding-bottom: 3.8rem;
+}
+
+.img{
+    width:100%;
+    padding-bottom: 3rem;
+    /* padding-top: 1rem; */
+}
+
+.build{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.main{
+    color: #ffffff;
+}
+
+.build h1{
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.build p{
+    padding-top: 1rem;
+    margin-left: 0.8rem;
+    width: 17.6rem;
+    font-size: 1.1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.build button{
+    margin: 1.5rem;
+    padding: 0.7rem 4rem;
+    border-radius: 3rem;
+    border: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover{
+    background-color:#e980e7;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.pan{
+    max-width: 1.8rem;
+    margin: 2.5rem 0.3rem;
+}
+
+.icon img{
+    width: 4rem;
+    height: 2rem;
+    padding: 0.3rem;
+    border-radius: 50%;
+    border: 0.009rem solid #ffffff;
+}
+
+.pan:hover{
+    background-color: #fe53c2;
+    border-color: #fe53c2;
+    cursor: pointer;
+}
+
+@media screen and (min-width:720px) 
+{
+    .container{
+    }
+
+  .build{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+  }
+    
+}
+
+ @media screen and (min-width:1120px)
+{
+    .container{
+        width: 100%;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0rem;
+        background-image: url("./images/bg-desktop.svg");
+       }
+
+    .logo{
+        width: 15rem;
+        padding-bottom: 0;
+        padding-left: 1.9rem;
+    }
+    .main{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .images{
+        width: 60%;
+    }
+                 
+    .img{
+        margin-top: 3.8rem;
+        margin-left: 2rem;
+    } 
+
+    .writings{
+        width: 40%;
+        padding-top: 7rem;
+        padding-left: 4rem;
+    }
+     
+    .build{
+        display: block;
+        text-align: start;
+        margin-left: 0;
+        height: 32rem;
+        padding-top: 7rem;
+    }
+
+    .build h1{
+        font-size: 2.5rem;
+    }
+
+    .build p{  
+         width: 100%;
+         margin-left: 0;
+    }
+
+    .build button{
+        margin: 2rem 0;
+    }
+
+    .icon{
+        margin-top: 3.2rem;
+        padding-left: 2rem;
+        /* padding-right: 7rem; */
+    }
+}
