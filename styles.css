@@ -28,7 +28,8 @@
     padding-top: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-item: center;
+    width: 100%;
 }
 
 .main{
@@ -42,8 +43,7 @@
 
 .build p{
     padding-top: 1rem;
-    margin-left: 0.8rem;
-    width: 17.6rem;
+    width: 85%;
     font-size: 1.1rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
